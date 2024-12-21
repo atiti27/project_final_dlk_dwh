@@ -15,14 +15,26 @@ Pour ce projet, il faut créer une base de données du nom de votre choix
 Pour exécuter les scripts de traitement et d'insertion de données, il faut spécifier dans votre fichier .env les différents paramètres de votre base de données comme suit:
 
 DB_USER=
+
 DB_PASSWORD=
+
 DB_HOST=
+
 DB_PORT=
+
 DB_NAME=
+
+### Installation des librairies nécessaires
+
+Exécuter cette commande:
+
+```pip install pandas sqlalchemy psycopg2 openpyxl```
 
 ### Exécution des scripts
 
-Le fichier ```main.py``` regroupe l'ensemble des scripts à lancer. Il suffit donc simplement d'exécuter le script ```main.py```.
+Le fichier ```main.py``` regroupe l'ensemble des scripts à lancer. Il suffit donc simplement d'exécuter le script ```main.py``` avec la commande suivante:
+
+```python main.py```
 
 ### Affichage des visualisations
 
